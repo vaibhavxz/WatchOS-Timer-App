@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7336828C2C4D3234004AF677 /* BlankTimer Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7336828B2C4D3234004AF677 /* BlankTimer Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		733682912C4D3234004AF677 /* BlankTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733682902C4D3234004AF677 /* BlankTimerApp.swift */; };
+		733682932C4D3234004AF677 /* StartTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733682922C4D3234004AF677 /* StartTimerView.swift */; };
+		733682952C4D3236004AF677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 733682942C4D3236004AF677 /* Assets.xcassets */; };
+		733682982C4D3236004AF677 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 733682972C4D3236004AF677 /* Preview Assets.xcassets */; };
+		733682A92C4E941C004AF677 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733682A82C4E941C004AF677 /* WidgetKit.framework */; };
+		733682AB2C4E941C004AF677 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733682AA2C4E941C004AF677 /* SwiftUI.framework */; };
+		733682AE2C4E941C004AF677 /* BlankTimerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733682AD2C4E941C004AF677 /* BlankTimerWidget.swift */; };
+		733682B02C4E941C004AF677 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733682AF2C4E941C004AF677 /* AppIntent.swift */; };
+		733682B22C4E941E004AF677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 733682B12C4E941E004AF677 /* Assets.xcassets */; };
+		73A5AADA2C4EB961009BAE4E /* BlankTimerWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 733682A62C4E941B004AF677 /* BlankTimerWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		73A5AB032C4EC29E009BAE4E /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A5AB022C4EC29E009BAE4E /* TimerView.swift */; };
+		73A5AB052C4EC2C2009BAE4E /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A5AB042C4EC2C2009BAE4E /* TimePickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7336828D2C4D3234004AF677 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7336827F2C4D3234004AF677 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7336828A2C4D3234004AF677;
+			remoteInfo = "BlankTimer Watch App";
+		};
+		73A5AADB2C4EB961009BAE4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7336827F2C4D3234004AF677 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 733682A52C4E941B004AF677;
+			remoteInfo = BlankTimerWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7336829E2C4D3236004AF677 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7336828C2C4D3234004AF677 /* BlankTimer Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A5AADD2C4EB961009BAE4E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				73A5AADA2C4EB961009BAE4E /* BlankTimerWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		733682852C4D3234004AF677 /* BlankTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlankTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7336828B2C4D3234004AF677 /* BlankTimer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlankTimer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		733682902C4D3234004AF677 /* BlankTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankTimerApp.swift; sourceTree = "<group>"; };
+		733682922C4D3234004AF677 /* StartTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTimerView.swift; sourceTree = "<group>"; };
+		733682942C4D3236004AF677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		733682972C4D3236004AF677 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		733682A62C4E941B004AF677 /* BlankTimerWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BlankTimerWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		733682A82C4E941C004AF677 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		733682AA2C4E941C004AF677 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		733682AD2C4E941C004AF677 /* BlankTimerWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankTimerWidget.swift; sourceTree = "<group>"; };
+		733682AF2C4E941C004AF677 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		733682B12C4E941E004AF677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		733682B32C4E941E004AF677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		733682BB2C4EA0DC004AF677 /* BlankTimer Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BlankTimer Watch App.entitlements"; sourceTree = "<group>"; };
+		733682BC2C4EA11E004AF677 /* BlankTimerWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlankTimerWidgetExtension.entitlements; sourceTree = "<group>"; };
+		733682BD2C4EA1B6004AF677 /* BlankTimer-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BlankTimer-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		73A5AB022C4EC29E009BAE4E /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		73A5AB042C4EC2C2009BAE4E /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		733682882C4D3234004AF677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733682A32C4E941B004AF677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733682AB2C4E941C004AF677 /* SwiftUI.framework in Frameworks */,
+				733682A92C4E941C004AF677 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7336827E2C4D3234004AF677 = {
+			isa = PBXGroup;
+			children = (
+				733682BC2C4EA11E004AF677 /* BlankTimerWidgetExtension.entitlements */,
+				7336828F2C4D3234004AF677 /* BlankTimer Watch App */,
+				733682AC2C4E941C004AF677 /* BlankTimerWidget */,
+				733682A72C4E941B004AF677 /* Frameworks */,
+				733682862C4D3234004AF677 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		733682862C4D3234004AF677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				733682852C4D3234004AF677 /* BlankTimer.app */,
+				7336828B2C4D3234004AF677 /* BlankTimer Watch App.app */,
+				733682A62C4E941B004AF677 /* BlankTimerWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7336828F2C4D3234004AF677 /* BlankTimer Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				733682BD2C4EA1B6004AF677 /* BlankTimer-Watch-App-Info.plist */,
+				733682BB2C4EA0DC004AF677 /* BlankTimer Watch App.entitlements */,
+				733682902C4D3234004AF677 /* BlankTimerApp.swift */,
+				73A5AB042C4EC2C2009BAE4E /* TimePickerView.swift */,
+				733682922C4D3234004AF677 /* StartTimerView.swift */,
+				73A5AB022C4EC29E009BAE4E /* TimerView.swift */,
+				733682942C4D3236004AF677 /* Assets.xcassets */,
+				733682962C4D3236004AF677 /* Preview Content */,
+			);
+			path = "BlankTimer Watch App";
+			sourceTree = "<group>";
+		};
+		733682962C4D3236004AF677 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				733682972C4D3236004AF677 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		733682A72C4E941B004AF677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				733682A82C4E941C004AF677 /* WidgetKit.framework */,
+				733682AA2C4E941C004AF677 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		733682AC2C4E941C004AF677 /* BlankTimerWidget */ = {
+			isa = PBXGroup;
+			children = (
+				733682AD2C4E941C004AF677 /* BlankTimerWidget.swift */,
+				733682AF2C4E941C004AF677 /* AppIntent.swift */,
+				733682B12C4E941E004AF677 /* Assets.xcassets */,
+				733682B32C4E941E004AF677 /* Info.plist */,
+			);
+			path = BlankTimerWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		733682842C4D3234004AF677 /* BlankTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7336829F2C4D3236004AF677 /* Build configuration list for PBXNativeTarget "BlankTimer" */;
+			buildPhases = (
+				733682832C4D3234004AF677 /* Resources */,
+				7336829E2C4D3236004AF677 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7336828E2C4D3234004AF677 /* PBXTargetDependency */,
+			);
+			name = BlankTimer;
+			productName = BlankTimer;
+			productReference = 733682852C4D3234004AF677 /* BlankTimer.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		7336828A2C4D3234004AF677 /* BlankTimer Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7336829B2C4D3236004AF677 /* Build configuration list for PBXNativeTarget "BlankTimer Watch App" */;
+			buildPhases = (
+				733682872C4D3234004AF677 /* Sources */,
+				733682882C4D3234004AF677 /* Frameworks */,
+				733682892C4D3234004AF677 /* Resources */,
+				73A5AADD2C4EB961009BAE4E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73A5AADC2C4EB961009BAE4E /* PBXTargetDependency */,
+			);
+			name = "BlankTimer Watch App";
+			productName = "BlankTimer Watch App";
+			productReference = 7336828B2C4D3234004AF677 /* BlankTimer Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		733682A52C4E941B004AF677 /* BlankTimerWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 733682B72C4E941E004AF677 /* Build configuration list for PBXNativeTarget "BlankTimerWidgetExtension" */;
+			buildPhases = (
+				733682A22C4E941B004AF677 /* Sources */,
+				733682A32C4E941B004AF677 /* Frameworks */,
+				733682A42C4E941B004AF677 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlankTimerWidgetExtension;
+			productName = BlankTimerWidgetExtension;
+			productReference = 733682A62C4E941B004AF677 /* BlankTimerWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7336827F2C4D3234004AF677 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					733682842C4D3234004AF677 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					7336828A2C4D3234004AF677 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					733682A52C4E941B004AF677 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 733682822C4D3234004AF677 /* Build configuration list for PBXProject "BlankTimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7336827E2C4D3234004AF677;
+			productRefGroup = 733682862C4D3234004AF677 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				733682842C4D3234004AF677 /* BlankTimer */,
+				7336828A2C4D3234004AF677 /* BlankTimer Watch App */,
+				733682A52C4E941B004AF677 /* BlankTimerWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		733682832C4D3234004AF677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733682892C4D3234004AF677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733682982C4D3236004AF677 /* Preview Assets.xcassets in Resources */,
+				733682952C4D3236004AF677 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733682A42C4E941B004AF677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733682B22C4E941E004AF677 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		733682872C4D3234004AF677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A5AB032C4EC29E009BAE4E /* TimerView.swift in Sources */,
+				733682932C4D3234004AF677 /* StartTimerView.swift in Sources */,
+				733682912C4D3234004AF677 /* BlankTimerApp.swift in Sources */,
+				73A5AB052C4EC2C2009BAE4E /* TimePickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733682A22C4E941B004AF677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733682AE2C4E941C004AF677 /* BlankTimerWidget.swift in Sources */,
+				733682B02C4E941C004AF677 /* AppIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7336828E2C4D3234004AF677 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7336828A2C4D3234004AF677 /* BlankTimer Watch App */;
+			targetProxy = 7336828D2C4D3234004AF677 /* PBXContainerItemProxy */;
+		};
+		73A5AADC2C4EB961009BAE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 733682A52C4E941B004AF677 /* BlankTimerWidgetExtension */;
+			targetProxy = 73A5AADB2C4EB961009BAE4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		733682992C4D3236004AF677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7336829A2C4D3236004AF677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7336829C2C4D3236004AF677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BlankTimer Watch App/BlankTimer Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlankTimer Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlankTimer-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = BlankTimer;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vaibhav.BlankTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		7336829D2C4D3236004AF677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BlankTimer Watch App/BlankTimer Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlankTimer Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlankTimer-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = BlankTimer;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vaibhav.BlankTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		733682A02C4D3236004AF677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = BlankTimer;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vaibhav.BlankTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		733682A12C4D3236004AF677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = BlankTimer;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vaibhav.BlankTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		733682B82C4E941E004AF677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = BlankTimerWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlankTimerWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BlankTimerWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vaibhav.BlankTimer.watchkitapp.BlankTimerWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		733682B92C4E941E004AF677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = BlankTimerWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlankTimerWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BlankTimerWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vaibhav.BlankTimer.watchkitapp.BlankTimerWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		733682822C4D3234004AF677 /* Build configuration list for PBXProject "BlankTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733682992C4D3236004AF677 /* Debug */,
+				7336829A2C4D3236004AF677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7336829B2C4D3236004AF677 /* Build configuration list for PBXNativeTarget "BlankTimer Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7336829C2C4D3236004AF677 /* Debug */,
+				7336829D2C4D3236004AF677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7336829F2C4D3236004AF677 /* Build configuration list for PBXNativeTarget "BlankTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733682A02C4D3236004AF677 /* Debug */,
+				733682A12C4D3236004AF677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		733682B72C4E941E004AF677 /* Build configuration list for PBXNativeTarget "BlankTimerWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733682B82C4E941E004AF677 /* Debug */,
+				733682B92C4E941E004AF677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7336827F2C4D3234004AF677 /* Project object */;
+}
